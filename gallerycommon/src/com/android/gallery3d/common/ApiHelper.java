@@ -69,8 +69,8 @@ public class ApiHelper {
     public static final boolean HAS_RELEASE_SURFACE_TEXTURE = hasMethod(
             "android.graphics.SurfaceTexture", "release");
 
-    public static final boolean HAS_SURFACE_TEXTURE =
-            Build.VERSION.SDK_INT >= VERSION_CODES.HONEYCOMB;
+    public static final boolean HAS_SURFACE_TEXTURE = false;
+//            Build.VERSION.SDK_INT >= VERSION_CODES.HONEYCOMB;
 
     public static final boolean HAS_MTP =
             Build.VERSION.SDK_INT >= VERSION_CODES.HONEYCOMB_MR1;
@@ -145,8 +145,8 @@ public class ApiHelper {
     public static final boolean HAS_MEDIA_PROVIDER_FILES_TABLE =
             Build.VERSION.SDK_INT >= VERSION_CODES.HONEYCOMB;
 
-    public static final boolean HAS_SURFACE_TEXTURE_RECORDING =
-            Build.VERSION.SDK_INT >= VERSION_CODES.JELLY_BEAN;
+    public static final boolean HAS_SURFACE_TEXTURE_RECORDING = false;
+//            Build.VERSION.SDK_INT >= VERSION_CODES.JELLY_BEAN;
 
     public static final boolean HAS_ACTION_BAR =
             Build.VERSION.SDK_INT >= VERSION_CODES.HONEYCOMB;
